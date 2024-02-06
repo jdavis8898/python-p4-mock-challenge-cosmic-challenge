@@ -253,7 +253,7 @@ class Missions(Resource):
 
 api.add_resource(Missions, "/missions")
 
-# Alternate to above if not using RESTful
+### Alternate to above if not using RESTful ###
 # @app.route("missions", methods = ["POST"])
 # def missions():
 #     try:
